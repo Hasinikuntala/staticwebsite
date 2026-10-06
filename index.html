@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Newspaper Style Design</title>
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #eeeeee;
+            margin: 20px;
+        }
+
+        .newspaper {
+            width: 90%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        .main-title {
+            text-align: center;
+            font-size: 40px;
+            border-bottom: 3px solid black;
+            padding-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: left;
+            font-size: 25px;
+            border-bottom: 2px solid black;
+            padding-bottom: 5px;
+        }
+
+        .articles {
+            display: flex;
+            gap: 25px;
+        }
+
+        .article {
+            width: 50%;
+            border: 2px solid black;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        .article h2 {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .article img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .article p {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        .date {
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="newspaper">
+
+    <h1 class="main-title">NEWS ARTICLE</h1>
+ |
+    <h2 class="subtitle">CSS TUTORIAL</h2>
+
+    <div class="articles">
+
+        <!-- Article 1 -->
+        <div class="article">
+
+            <h2>Article 1: CSS Basics</h2>
+
+            <img src="https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19"
+                 alt="CSS Coding">
+
+            <p>
+                CSS stands for Cascading Style Sheets and is used to style
+                web pages. It controls colors, fonts, sizes and backgrounds.
+                CSS helps developers create attractive and well-organized
+                websites. It can control the layout and position of elements.
+                Properties such as margin, padding, border and position are
+                commonly used. CSS also makes websites easier to read and
+                visually appealing.
+            </p>
+
+        </div>
+
+
+        <!-- Article 2 -->
+        <div class="article">
+
+            <h2>Article 2: HTML Basics</h2>
+
+            <img src="https://images.unsplash.com/photo-1621839673705-6617adf9e890"
+                 alt="HTML Coding">
+
+            <p>
+                HTML stands for HyperText Markup Language and is used to
+                create web pages. It provides the basic structure of a website.
+                HTML uses elements such as headings, paragraphs, images and
+                links. Forms can be created using HTML to collect information.
+                Tables and lists help organize information clearly. HTML works
+                together with CSS to create attractive and useful websites.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
